@@ -1,0 +1,62 @@
+#gradient-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  --gradient-color-1: #ecffae; 
+  --gradient-color-2: #c2e6ff; 
+  --gradient-color-3: #8affe7;  
+  --gradient-color-4: #d7b8ff;
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: #CDFFE6;
+}
+
+::selection {
+  background: #CDFFE6;
+}
+
+@font-face {
+  font-family: ClimateCrisis-Regular;
+  src: url("../Fonts/ClimateCrisis-Regular.ttf");
+}
+
+@font-face {
+  font-family: RobotoMono-Regular;
+  src: url("../Fonts/RobotoMono-Regular.ttf");
+}
+
+#holder {
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+  .login {
+    font-family: RobotoMono-Regular;
+    font-size: 20px;
+    
+  }
+
+#logo {
+  margin-top: 100px;
+  margin-bottom: 0;
+  margin-left: 440px;
+  font-family: ClimateCrisis-Regular;
+  font-size: 120px;
+  color: #fff;
+}
+
+#brand {
+  margin-top: 20px;
+  margin-left: 440px;
+  font-family: RobotoMono-Regular;
+  font-size: 60px;
+  color: #fff;
+}
