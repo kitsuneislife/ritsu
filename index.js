@@ -1,10 +1,12 @@
 const chalk = require("cli-color");
 const now = new Date().toLocaleString("en-US", { timeZone: "America/Sao_Paulo", hour12: false });
 
-console.log(chalk.yellow("=========================================="));
+chalk.line = chalk.yellow("==========================================");
+
+console.log(chalk.line);
 console.log(chalk.yellow(now));
 console.log(chalk.yellow("System starting up..."));
-console.log(chalk.yellow("=========================================="));
+console.log(chalk.line);
 
 const Loaders = require("./src/Loaders.js");
 Loaders.load();
